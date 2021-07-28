@@ -229,7 +229,6 @@ p a:hover {
   text-decoration-thickness: initial;
 }
 
-
 nav {
   justify-content: flex-end;
 }
@@ -251,6 +250,12 @@ nav .active {
 ul {
   padding: 0;
   list-style-type: none;
+}
+
+summary {
+  font-weight:bold;
+  cursor: pointer;
+  margin-block: var(--line-h);
 }
 
 input:not(:placeholder-shown):invalid {
