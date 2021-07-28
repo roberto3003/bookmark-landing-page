@@ -252,23 +252,6 @@ ul {
   list-style-type: none;
 }
 
-/* Style summaries */
-.summaries hr {
-  margin: 0;
-  border-style: inset;
-  border-width: 1px;
-  border-color: var(--theme);
-}
-
-summary {
-  cursor: pointer;
-  margin-block: var(--line-h);
-}
-
-::marker {
-  color: var(--accent);
-}
-
 input:not(:placeholder-shown):invalid {
   border: 0.1em solid red;
 }
@@ -524,6 +507,28 @@ hr {
     overflow: hidden;
   }
 
+/* Style Summaries */
+.summaries {
+  max-width: 30em;
+}
+
+.summaries hr {
+  margin: 0;
+  border-style: inset;
+  border-width: 1px;
+  border-color: var(--theme);
+}
+
+summary {
+  cursor: pointer;
+  margin-block: var(--line-h);
+}
+
+::marker {
+  color: var(--accent);
+}
+
+
 /* Style Elements */
 .bg-image {
   background-image: url();
@@ -599,9 +604,4 @@ hr {
   main .container> * {
 	margin-block: calc(var(--line-h)*6);
   }
-
-.questions {
-  max-width: 30em;
-}
-
 
