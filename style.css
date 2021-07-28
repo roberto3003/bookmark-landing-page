@@ -498,14 +498,15 @@ hr {
     width: calc(var(--line-h)*2);
     display: grid;
     place-items: center;
-    border-radius: 50%;
-    overflow: hidden;
+	border-radius: 50%;
+	overflow: hidden;
   }
 
-/* Style Summaries */
-.summaries {
-  max-width: 30em;
-}
+  /* Style Summaries */
+  .summaries {
+	max-width: 30em;
+	margin-block-start: calc(var(--line-h)*2);
+  }
 
 .summaries hr {
   margin: 0;
