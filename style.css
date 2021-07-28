@@ -517,11 +517,15 @@ hr {
 	margin-block-start: calc(var(--line-h)*2);
   }
 
-.summaries hr {
-  margin: 0;
-  border-style: inset;
-  border-width: 1px;
-  border-color: var(--theme);
+  .summaries hr {
+	margin: 0;
+	border-style: inset;
+	border-width: 1px;
+	border-color: var(--theme);
+  }
+
+details {
+  padding-block-end: var(line-h);
 }
 
 summary {
