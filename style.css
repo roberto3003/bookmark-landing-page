@@ -126,12 +126,12 @@
 
 		 /* Vertical rhythm */
 
-		 main {
-		   margin-block: calc(var(--line-h)*4);
+		 main > * {
+		   margin-block: calc(var(--line-h)*6);
 		 }
 
-		 main > *:not(p) {
-		   margin-block: calc(var(--line-h)*2);
+		 main {
+		   margin-block: calc(var(--line-h)*6);
 		 }
 		
 * + h2, * + h3, * + h4 {
@@ -601,7 +601,4 @@ summary {
 
 /* Site specific */
 
-  main .container> * {
-	margin-block: calc(var(--line-h)*6);
-  }
 
